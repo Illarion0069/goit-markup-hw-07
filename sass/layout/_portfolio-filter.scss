@@ -1,23 +1,24 @@
-.section-portfolio {
+.filter {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.container-portfolio {
+.filter__container {
   margin-bottom: 50px;
 }
 
-.filter {
+.filter__container-list {
   display: flex;
   justify-content: center;
 }
-.filter .item {
+.filter__container-item {
   margin-right: 8px;
+
   &:last-child {
     margin-right: 0;
   }
 }
 
-.button {
+.filter__container-button {
   cursor: pointer;
   background-color: #f5f4fa;
   color: var(--primary-title-color);

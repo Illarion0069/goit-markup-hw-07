@@ -1,30 +1,27 @@
-//MAIN
-@import "./utils/variables";
+// BASE
 @import "./base/reset";
-@import "./components/container";
+//UTILS
+@import "./utils/variables";
 @import "./utils/mixins";
+// COMPONENTS
+@import "./components/container";
 @import "./components/logo";
-
+@import "./components/hero-button";
 //NAV
 @import "./layout/nav";
-//CONTACTS
 @import "./layout/contacts";
 
 //Studio page
-//HERO
 @import "./layout/hero";
 @import "./layout/backdrop";
-//BENEFITS
 @import "./layout/benefits";
-//SECTION-PHOTO
-@import "./layout/section-photo";
-//SECTION-TEAM
-@import "./layout/section-team";
-//SECTION-CLIENTS
-@import "./layout/section-clients";
-//FOOTER
-@import "./layout/footer";
+@import "./layout/photo";
+@import "./layout/team";
+@import "./layout/clients";
 
 //Portfolio page
-@import "./layout/section-portfolio";
+@import "./layout/portfolio-filter";
 @import "./layout/examples";
+
+//FOOTER
+@import "./layout/footer";

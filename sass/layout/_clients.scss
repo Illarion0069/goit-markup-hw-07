@@ -1,22 +1,26 @@
-.clients {
-  display: flex;
-  justify-content: center;
-}
 .section-clients {
   justify-content: center;
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.clients-icon {
-  fill: currentColor;
+.clients__container-heading {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-.clients-item {
+.clients__container-list {
+  display: flex;
+  justify-content: center;
+}
+
+.clients__container-item {
   margin-right: 30px;
   &:last-child {
     margin-right: 0;
   }
 }
-.clients-link {
+.clients__container-link {
   @extend .display-flex;
   justify-content: center;
 
@@ -36,10 +40,6 @@
     outline: none;
   }
 }
-
-.section-clients .heading {
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
+.clients__container-icon {
+  fill: currentColor;
 }
